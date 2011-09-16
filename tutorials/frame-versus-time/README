@@ -2,8 +2,8 @@
 Frame-based versus Time-based Animation
 =======================================
 
-Peter H. Froehlich <phf@acm.org>
-Johns Hopkins Gaming Lab <http://gaming.jhu.edu/>
+:Author: Peter H. Froehlich <phf@acm.org>
+:Organization: Johns Hopkins Gaming Lab <http://gaming.jhu.edu/>
 
 Almost all games feature animated objects of some kind: meteors,
 space ships, Mario, dinosaurs, what have you. Usually we'd like
@@ -99,13 +99,15 @@ Python Code
 There are five demo programs to illustrate the ideas above with
 actual Python code:
 
+  ====================   ============================
   Program                Arguments
-
+  ====================   ============================
   frame-based.py         #objects
   time-based.py          #objects target-fps
   fixed-interval.py      #objects target-fps interval
   minimum-interval.py    #objects target-fps interval
   leftover-interval.py   #objects target-fps interval
+  ====================   ============================
 
 All of these use some common code in util.py, most importantly
 the Circle class found there.
