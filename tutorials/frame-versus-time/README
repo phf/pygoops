@@ -93,7 +93,7 @@ has to be reproducible across different machines, for example in
 a networked multi-player game.
 
 -----------
-TODO Python Code
+Python Code
 -----------
 
 There are five demo programs to illustrate the ideas above with
@@ -166,3 +166,8 @@ have, for example, 50 milliseconds worth of updating to do, we
 *better* do it in at *most* 50 milliseconds, ideally even more
 quickly than that. Otherwise each trip around the loop requires
 longer and longer updates, ad infinitum. :-/
+
+You can see this effect clearly in the interval-based examples,
+just use a lot of objects and a small interval. From frame to
+frame, you'll see the number of updates performed go up, with
+no limit in sight.
