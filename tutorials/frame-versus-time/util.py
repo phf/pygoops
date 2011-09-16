@@ -18,8 +18,6 @@ class Circle(object):
         self.maxy = height - radius
         self.x = random_place(width, radius)
         self.y = random_place(height, radius)
-	self.x = width/2
-	self.y = height/2
         self.vx = speed
         if R.randint(0, 1) == 1:
             self.vx = -self.vx
@@ -75,7 +73,7 @@ class Circle(object):
         # this one was unintentionally flawed because it tries
         # to "move circles back" by a time-dependent amount; if
         # times vary too much between updates, this can lead to
-        # "collision chitter" at the boundaries
+        # "collision jitter" at the boundaries
         if self.x < self.radius or self.x > self.maxx:
             self.vx = -self.vx
             self.x = self.x + self.vx*dt
