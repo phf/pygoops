@@ -173,3 +173,11 @@ You can see this effect clearly in the interval-based examples,
 just use a lot of objects and a small interval. From frame to
 frame, you'll see the number of updates performed go up, with
 no limit in sight.
+
+---------------
+Further Reading
+---------------
+
+http://sacredsoftware.net/tutorials/Animation/TimeBasedAnimation.xhtml
+http://gafferongames.com/game-physics/fix-your-timestep/
+http://goingamerica.blogspot.com/2009/02/pygame-decoupling-rendering-from-game.html
