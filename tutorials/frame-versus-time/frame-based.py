@@ -23,7 +23,7 @@ RADIUS = 100
 SPEED = 4 # pixels/frame
 
 PG.init()
-screen = PD.set_mode((WIDTH, HEIGHT), PG.FULLSCREEN)
+screen = PD.set_mode((WIDTH, HEIGHT))
 WIDTH, HEIGHT = screen.get_size()
 
 circles = []
