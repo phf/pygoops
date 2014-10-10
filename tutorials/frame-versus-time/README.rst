@@ -178,6 +178,10 @@ no limit in sight.
 Further Reading
 ---------------
 
-http://sacredsoftware.net/tutorials/Animation/TimeBasedAnimation.xhtml
-http://gafferongames.com/game-physics/fix-your-timestep/
-http://goingamerica.blogspot.com/2009/02/pygame-decoupling-rendering-from-game.html
+- http://sacredsoftware.net/tutorials/Animation/TimeBasedAnimation.xhtml
+- http://gafferongames.com/game-physics/fix-your-timestep/
+- http://goingamerica.blogspot.com/2009/02/pygame-decoupling-rendering-from-game.html
+
+-------
+The End
+-------
